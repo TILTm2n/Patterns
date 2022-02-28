@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3AD46AD27CBD12C00D2DBE6 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD46AC27CBD12C00D2DBE6 /* Builder.swift */; };
+		A3B97B1927CCF7BC00CF4BAA /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B97B1827CCF7BC00CF4BAA /* Singleton.swift */; };
 		A3ECDF3427CA19890045AD9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ECDF3327CA19890045AD9F /* AppDelegate.swift */; };
 		A3ECDF3627CA19890045AD9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ECDF3527CA19890045AD9F /* SceneDelegate.swift */; };
 		A3ECDF3827CA19890045AD9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ECDF3727CA19890045AD9F /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		A3AD46AC27CBD12C00D2DBE6 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		A3B97B1827CCF7BC00CF4BAA /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		A3ECDF3027CA19890045AD9F /* Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ECDF3327CA19890045AD9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3ECDF3527CA19890045AD9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,12 +55,21 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		A3B97B1727CCF68300CF4BAA /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A3B97B1827CCF7BC00CF4BAA /* Singleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		A3ECDF2727CA19890045AD9F = {
 			isa = PBXGroup;
 			children = (
 				A3ECDF4A27CA1C770045AD9F /* FactoryMethod */,
 				A3ECDF4E27CA47C70045AD9F /* AbstractFactory */,
 				A3AD46AB27CBD10700D2DBE6 /* Builder */,
+				A3B97B1727CCF68300CF4BAA /* Singleton */,
 				A3ECDF3227CA19890045AD9F /* Patterns */,
 				A3ECDF3127CA19890045AD9F /* Products */,
 			);
@@ -179,6 +190,7 @@
 				A3AD46AD27CBD12C00D2DBE6 /* Builder.swift in Sources */,
 				A3ECDF3427CA19890045AD9F /* AppDelegate.swift in Sources */,
 				A3ECDF3E27CA19890045AD9F /* Patterns.xcdatamodeld in Sources */,
+				A3B97B1927CCF7BC00CF4BAA /* Singleton.swift in Sources */,
 				A3ECDF4C27CA1CA10045AD9F /* FactoryMethod.swift in Sources */,
 				A3ECDF3627CA19890045AD9F /* SceneDelegate.swift in Sources */,
 			);
