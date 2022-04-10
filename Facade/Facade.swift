@@ -19,7 +19,7 @@ class Facade {
     }
     
     func operation() -> String {
-        var result = "Facade initializers:"
+        var result = "Facade initializers:\n"
         result += " " + subsystem1.operation1()
         result += " " + subsystem2.operation1()
         result += " " + "Facade orders subsystem to perform the actions:\n"
