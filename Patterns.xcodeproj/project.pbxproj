@@ -10,6 +10,7 @@
 		A316720028031E2500C5A9A5 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31671FF28031E2500C5A9A5 /* Facade.swift */; };
 		A31672032803506C00C5A9A5 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31672022803506C00C5A9A5 /* Decorator.swift */; };
 		A32BE24328055E8400D9C051 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BE24228055E8400D9C051 /* Memento.swift */; };
+		A32BE2462805FE5C00D9C051 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BE2452805FE5C00D9C051 /* Iterator.swift */; };
 		A3AD46AD27CBD12C00D2DBE6 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD46AC27CBD12C00D2DBE6 /* Builder.swift */; };
 		A3B97B1927CCF7BC00CF4BAA /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B97B1827CCF7BC00CF4BAA /* Singleton.swift */; };
 		A3ECDF3427CA19890045AD9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ECDF3327CA19890045AD9F /* AppDelegate.swift */; };
@@ -27,6 +28,7 @@
 		A31671FF28031E2500C5A9A5 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		A31672022803506C00C5A9A5 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		A32BE24228055E8400D9C051 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		A32BE2452805FE5C00D9C051 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
 		A3AD46AC27CBD12C00D2DBE6 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		A3B97B1827CCF7BC00CF4BAA /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		A3ECDF3027CA19890045AD9F /* Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,14 @@
 			path = Memento;
 			sourceTree = "<group>";
 		};
+		A32BE2442805FE4200D9C051 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				A32BE2452805FE5C00D9C051 /* Iterator.swift */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
 		A3AD46AB27CBD10700D2DBE6 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 				A31671FE28031DF100C5A9A5 /* Facade */,
 				A316720128034FB200C5A9A5 /* Decorator */,
 				A32BE24128055E6600D9C051 /* Memento */,
+				A32BE2442805FE4200D9C051 /* Iterator */,
 				A3ECDF3227CA19890045AD9F /* Patterns */,
 				A3ECDF3127CA19890045AD9F /* Products */,
 			);
@@ -221,6 +232,7 @@
 				A316720028031E2500C5A9A5 /* Facade.swift in Sources */,
 				A31672032803506C00C5A9A5 /* Decorator.swift in Sources */,
 				A3ECDF5027CA47E40045AD9F /* AbstractFactory.swift in Sources */,
+				A32BE2462805FE5C00D9C051 /* Iterator.swift in Sources */,
 				A3ECDF3827CA19890045AD9F /* ViewController.swift in Sources */,
 				A3AD46AD27CBD12C00D2DBE6 /* Builder.swift in Sources */,
 				A3ECDF3427CA19890045AD9F /* AppDelegate.swift in Sources */,
